@@ -1,4 +1,10 @@
-.header_title{  
+.awesome{
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+
+.awesome_title{  
     margin-top: 100px;  
     font-family: Raleway;
     font-style: normal;
@@ -9,14 +15,14 @@
     text-align: center; 
 }
 
-.header_line{    
+.awesome_line{    
     margin: auto;
     margin-top: 25px;
     width: 64px;
     height: 2px;   
     border: 1px solid #D98943;
 }
-.header_text{
+.awesome_text{
     margin-top: 30px;
     text-align: center;
     font-family: Open Sans;
