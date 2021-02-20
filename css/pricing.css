@@ -1,0 +1,90 @@
+.price{
+    width: 100%;
+    background-color: #F5F5F5;
+    background-size: contain;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.price_line{
+    margin: auto;
+    margin-top: 34px;    
+    border: 1px solid #E72424;
+}
+
+.price_text{
+    margin-top: 34px;
+}
+
+.price-wrapper{
+    margin-top: 62px;
+    margin-bottom: 80px;  
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -15px;
+}
+
+.card{   
+    display: flex;
+    flex-direction: column;  
+    margin: 15px;
+    width: 340px;
+  }
+
+  .card_item{ 
+    border: 2px solid #F5F5F5;
+  }
+ 
+ .card_title__item{       
+    background-color: #333333; 
+    margin-top: 8px;    
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;       
+}
+
+.card_cost__item{
+    flex: 1 0 auto; 
+    background-color: #333333;
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card_free__item{
+    flex: 1 0 auto; 
+    background-color: #333333;   
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card_free__item:hover{
+    background: #D98943;
+}
+
+.card_little__item{
+    flex: 1 0 auto; 
+    background-color: #fff;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #86878B;
+}
+
+
