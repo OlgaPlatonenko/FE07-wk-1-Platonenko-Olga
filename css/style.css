@@ -27,6 +27,16 @@
     text-transform: uppercase;
    }
 
+   .title::after{
+       content: "";
+       width: 64px;
+       height: 2px;
+       background-color: #D98943;
+       display: block;      
+       margin: auto;  
+       margin-top: 25px;
+   }
+
    .line{
     width: 64px;
     height: 2px;  
