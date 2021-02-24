@@ -15,24 +15,23 @@
     margin-top: 62px;
     margin-bottom: 80px;  
     display: flex;
-    justify-content: space-around;
-    margin: 0 -15px;
+    justify-content: space-between;
+    margin: 62px -15px 0;
 }
 
 .card{   
     display: flex;
     flex-direction: column;  
-    margin: 15px;
+    margin: 0 15px;
     width: 340px;
   }
 
   .card_item{ 
-    border: 2px solid #F5F5F5;
+   margin-bottom: 2px;
   }
  
  .card_title__item{       
-    background-color: #333333; 
-    margin-top: 8px;    
+    background-color: #333333;    
     font-family: Open Sans,sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -42,8 +41,7 @@
     color: #FFFFFF;       
 }
 
-.card_cost__item{
-    flex: 1 0 auto; 
+.card_cost__item{  
     background-color: #333333;
     font-family: Raleway,sans-serif;
     font-style: normal;
