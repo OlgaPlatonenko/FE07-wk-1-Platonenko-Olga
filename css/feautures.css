@@ -1,0 +1,22 @@
+.feautures{
+    height: 600px;
+    width: 100%;
+}
+
+.tabs-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    justify-content: space-around;
+    margin-top: 50px;
+
+
+}
+
+.tab_item{
+    width: 112px;
+    height: 110px;
+    background-color: #333333;
+    border-radius: 4px;
+
+}
