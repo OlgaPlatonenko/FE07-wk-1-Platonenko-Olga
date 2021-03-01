@@ -1,23 +1,22 @@
 .customers{
     margin-top: 80px;
+    margin-bottom: 119px;
 }
 
 .customers_text{
-    margin-top: 70px;
+    margin-top: 34px;
 }
 
 .customer-review_wrapper{
     margin-top: 67px;
     display: flex;
     justify-content: space-around;
-    margin: 67px -15px 0;
-    flex-wrap: wrap;
-   
+    margin: 76px -15px 0;
+    flex-wrap: wrap;   
 }
 
 .customer-review_item{
-    width: 298px;
-    margin: 15px;
+    max-width: 298px;   
 }
 
 .customer-review_item__text{   
@@ -28,7 +27,8 @@
    text-align: center;
    background-color: #E2E2E2;
    border-radius: 7px;
-   position: relative;     
+   position: relative;    
+   transition: 0.3s; 
 }
 
 .customer-review_item__text:hover{
@@ -48,14 +48,28 @@
 }
 
 .customer-review_item__ava{
-    width: 70px;
-    height: 70px;
+    max-width: 70px;
+    max-height: 70px;
     border-radius: 50%;
-    margin-top: 22px;
-    position: relative;
-    top: 10px;
-    left: 45px;    
+    margin-top: 22px;      
    }
+
+   .custom-name_wrapper{
+      display: flex;
+      justify-content: space-between;
+      max-width: 212px;
+      margin-top: 22px;
+      align-items: center;
+      margin-left: 45px;
+   }
+
+  .custom-name_descr{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-height: 58px;
+
+  }
 
    .customer-review_item__name{
     font-family: Open Sans;
@@ -63,9 +77,6 @@
     font-weight: bold;
     font-size: 20px;
     color: #333333;
-    position: relative;
-    left: 160px;
-    bottom: 62px;    
    }
 
    .customer-review_item__work{
@@ -73,11 +84,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;    
-    color: #86878B;
-    position: relative;
-    left: 198px;
-    bottom: 50px;  
-
+    color: #86878B;   
    }
 
  

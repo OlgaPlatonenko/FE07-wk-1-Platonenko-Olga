@@ -2,6 +2,11 @@
 @import url("pricing.css");
 @import url("customers.css");
 @import url("axure.css");
+@import url("nav.css");
+@import url("header.css");
+@import url("social.css");
+@import url("footer.css");
+
 
 *{
     margin: 0;
@@ -16,7 +21,6 @@
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;  
-
     position: relative;
     z-index: 1;
    }
@@ -54,7 +58,33 @@
     line-height: 19px;
     color: #86878B;
    }
-   
+
+   .link_btn{
+    display: block;
+    width: 135px;
+    height: 42px;
+    padding: 11px 26px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+   }
+
+   .text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    line-height: 19px;
+    
+
+   }
+ 
+  
 
 
    

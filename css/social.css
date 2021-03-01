@@ -1,0 +1,72 @@
+.social{
+    background-color: #F8EFEF;   
+    height: 110px;
+    padding-top: 14px;  
+    
+}
+.social-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-wrapper_title{
+   display: flex;
+   flex-direction: column;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;    
+    align-items: center;      
+    color: #333333;   
+}
+.social_text{   
+    margin-top: 14px;
+    color: #86878B;
+}
+
+.social-list_wrapper{
+    width: 684px;
+    margin-top: 20px;
+}
+
+.social_item{ 
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+
+  .social_item:last-child{
+      margin-right: 0;
+  }
+
+  .social_item__link{
+    font-size: 24px;
+    font-weight: 600;    
+    color: #a5a2a2;
+    transition: 0.3s;
+  }
+
+  .social_item__link:hover{
+    display: block;
+    transform: scale(1.5,1.5);    
+  }
+
+/*
+.social-list__facebook::after{
+    content: "\f39e";
+    font-family: "Font Awesome 5 Brands";
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    display: block;
+
+}*/

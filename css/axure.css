@@ -1,7 +1,6 @@
 .axure{
     background-image: url(/img/background_axure.png);
-    height: 326px;
-    width: 100%;
+    height: 326px;  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,19 +49,9 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-.axure_link{
-    display: block;
-    margin: 57px auto;
-    width: 135px;
-    height: 42px;
-    padding: 11px 26px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    text-align: center;
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+.axure_link{   
+    margin: 57px auto;    
+    transition: 0.3s;
 }
 
 .axure_link:hover{
