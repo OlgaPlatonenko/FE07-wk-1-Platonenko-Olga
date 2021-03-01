@@ -42,6 +42,9 @@
     height: 70px;
     border: 1px solid #D98943;
     border-radius: 50%;
+    color: #D98943;
+    font-size: 21px;
+    text-align: center;
 }
 
 .row-item_title{
