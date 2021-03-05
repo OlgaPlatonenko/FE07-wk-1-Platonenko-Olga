@@ -42,11 +42,12 @@
 
 .form-contact_textarea{ 
     width: 100%;
+    
 }
 
 .form-contact_textarea__msg{
     display: block;
-    height: 216px;
+    height: 185px;
     width: 478px;
     max-width: 478px;
     resize: horizontal;
