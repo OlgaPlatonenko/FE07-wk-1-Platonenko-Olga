@@ -22,7 +22,7 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #FFFFFF; 
 }  
 .navigation_logo:hover{
@@ -34,7 +34,7 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #EC7979; 
 }
 
@@ -55,7 +55,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-transform: capitalize;  
   color: rgba(255, 255, 255, 0.7);
   position: relative;

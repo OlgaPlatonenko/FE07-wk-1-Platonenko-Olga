@@ -74,3 +74,38 @@ margin-top: 89px;
     display: block;
    width: 100%;
 }
+
+@media(max-width:768px){
+    .feautures{
+        height: auto;
+        padding-top: 20px;
+       
+    }
+
+    .feautures-wrapper{
+        display: block;
+}
+.feautures_left{
+    flex-direction: row;     
+    align-items: flex-end;   
+}
+.feautures_center{
+    margin: 0 auto;
+   text-align: center;   
+}
+.feautures_text{
+     margin-top: 20px;   
+ }
+
+ .feautures_right{
+     display: none;
+ }
+ .feautures_link{
+     display: block;
+     margin: 0 auto;
+    margin-top: 40px;
+    }
+    .feautures-title{
+      margin-top: 40px;    
+    }
+}

@@ -8,11 +8,17 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 0 -15px;
 }
 
 .social-wrapper_title{
+    margin: 15px;
    display: flex;
    flex-direction: column;
+}
+
+.social-list_wrapper{
+    margin: 15px;
 }
 
 .social-list{
@@ -44,7 +50,7 @@
   }
 
   .social_item__link{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;    
     color: #a5a2a2;
     transition: 0.3s;
@@ -65,3 +71,9 @@
     display: block;
 
 }*/
+@media(max-width:768px){
+    .social{
+        height: 90px;
+        padding-top: 12px;          
+    }
+}

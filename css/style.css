@@ -30,8 +30,7 @@
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;  
     color: #212121;
     text-align: center; 
     text-transform: uppercase;
@@ -55,8 +54,8 @@
    .textundertitle{
     text-align: center;
     font-family: Open Sans;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
     color: #86878B;
    }
 
@@ -72,7 +71,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-align: center;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
@@ -89,9 +88,9 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     align-items: center;
-    line-height: 19px;
+    line-height: 1.1875rem;
     
    }
  
@@ -100,7 +99,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #BDBDBD;
     text-align: left;
 }
@@ -116,7 +115,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;   
+    font-size: 1.25rem;   
     text-transform: uppercase;
     
 }

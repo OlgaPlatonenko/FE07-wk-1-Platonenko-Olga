@@ -52,3 +52,11 @@ max-width: 478px;
     background-color: #EC7979;
 }
 
+@media(max-width:768px){
+    .form-wrapper{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+    }
+}

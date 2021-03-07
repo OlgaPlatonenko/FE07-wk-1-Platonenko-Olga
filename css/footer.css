@@ -1,9 +1,9 @@
 .footer{
-    height: 101px;
+    height: 6.6875rem;
     width: 100%;
     background-color: #000000;
     align-items: center;
-    padding: 30px 0 15px 0;
+    padding: 1.875rem 0 0.9375rem 0;
 }
 
 .footer_wrapper{
@@ -14,7 +14,7 @@
 }
 
 .footer-social{
-  max-width: 317px;
+  max-width: 19.8125rem;
   margin: 0 auto;
 
 }
@@ -23,7 +23,7 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 18px;
@@ -32,6 +32,26 @@
 .under::before{
     content: "\f1f9";
     font-family: "Font Awesome 5 Free";
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
+}
+
+@media(max-width:768px){
+    .footer{
+        height: 4rem;
+        padding-top: 0.5rem;
+    }
+    .under{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.5rem;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 1rem;
+    }
+    .under::before{
+        margin-top: 0;
+        font-size: 0.5rem;
+    }
 }
