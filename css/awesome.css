@@ -49,10 +49,7 @@
 
 .row-item_title{
     margin-top: 30px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
+    
     line-height: 27px;
     color: #333333;
     flex: 1 0 auto;

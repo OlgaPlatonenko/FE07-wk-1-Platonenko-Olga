@@ -20,12 +20,7 @@
     justify-content: space-between;
 }
 
-.social-media{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;    
-    align-items: center;      
+.social-media{     
     color: #333333;   
 }
 .social_text{   

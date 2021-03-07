@@ -14,42 +14,30 @@
 }
 
 .inputs-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: flex-start;
-    width: 100%;
+    max-width: 478px;
 }
-
-.form-contact_item{
-    margin-top: 31px;
-}
-.form-contact_item:first-child{
-    margin-top: 0;
- }
 
 .form-contact_item__lbl{
-    display: block;   
+    display: block;
+    margin-top: 32px;
+  
 }
 
 .form-contact_item__input{
     display: block;
-    width: 478px;
-    max-width: 478px;
+    width: 100%;
     line-height: 20px;
     margin-top: 12px;
 }
 
-.form-contact_textarea{ 
-    width: 100%;
-    
+.form-contact_textarea{
+display: block;
+max-width: 478px;
 }
 
 .form-contact_textarea__msg{
     display: block;
-    height: 185px;
-    width: 478px;
-    max-width: 478px;
+    width: 100%;
     resize: horizontal;
 }
 
