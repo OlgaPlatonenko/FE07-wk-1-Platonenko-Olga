@@ -17,6 +17,7 @@
 
 .customer-review_item{
     max-width: 298px;   
+    margin: 15px;
 }
 
 .customer-review_item__text{   
@@ -87,7 +88,13 @@
     color: #86878B;   
    }
 
-   @media(max-width:1024px){
+   @media(max-width:1024px an){
+    .customer-review_wrapper{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+   }
+   @media(max-width:768px){
     .customer-review_wrapper{
         display: flex;
         flex-direction: column;
@@ -96,6 +103,11 @@
     .customer-review_item__text{   
         margin-top: 20px;
     }
+    .customer-review_wrapper{
+        margin: 0;
+    }
+
+
    }
 
  

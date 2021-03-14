@@ -6,39 +6,50 @@
     margin-top: 34px;
 }
 
+.form-contact{
+max-width: 1170px;
+}
+
 .form-wrapper{
     margin-top: 95px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 95px -15px;
 }
 
 .inputs-wrapper{
-    max-width: 478px;
+    box-sizing: content-box;
+    flex-basis: 29.875rem;
+    margin: 0 15px;
+    
 }
 
 .form-contact_item__lbl{
     display: block;
-    margin-top: 32px;
-  
+    margin-top: 32px;  
 }
 
 .form-contact_item__input{
     display: block;
     width: 100%;
     line-height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 12px;
 }
 
 .form-contact_textarea{
-display: block;
-max-width: 478px;
+    box-sizing: content-box;
+    flex-basis: 29.875rem;
+    
 }
 
 .form-contact_textarea__msg{
     display: block;
     width: 100%;
     resize: horizontal;
+    height: 13.125rem;
 }
 
 .contact_button{
@@ -53,10 +64,31 @@ max-width: 478px;
 }
 
 @media(max-width:768px){
+    .contact{
+        height: auto;
+        margin-top: 95px;   
+        margin-bottom: 30px;
+    }
     .form-wrapper{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 0;
+        margin: 0;
     }
+    .form-contact_textarea{
+    margin-top: 20px;    
+    width: 40%;    
+    flex-basis: 0;
+    }
+    .inputs-wrapper{
+        flex-basis: 0;
+        align-items: flex-start;
+        margin: 0;
+        width: 40%;
+    }
+    .form-contact_item__input{
+        margin-left: 0;
+    }
+    
+
 }

@@ -144,7 +144,7 @@ width: 100%;
 
 @media(max-width:1024px){
    html{
-       font-size: 13px;
+       font-size: 15px;
    }
    .form-content{      
       padding: 10px 40px 41px 40px;
@@ -154,7 +154,7 @@ width: 100%;
 
 @media(max-width:768px){
     html{
-        font-size: 10px;
+        font-size: 14px;
     }
     .form-content{      
         padding: 10px 30px 30px 30px;
