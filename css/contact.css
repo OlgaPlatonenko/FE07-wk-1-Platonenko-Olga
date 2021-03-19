@@ -1,16 +1,20 @@
-.contact{
+.contact {
     height: 700px;
-    margin-top: 95px;   
+    margin-top: 95px;
 }
-.contact_text{
+.xs-show-contact{
+    display: none;
+}
+
+.contact_text {
     margin-top: 34px;
 }
 
-.form-contact{
-max-width: 1170px;
+.form-contact {
+    max-width: 1170px;
 }
 
-.form-wrapper{
+.form-wrapper {
     margin-top: 95px;
     display: flex;
     justify-content: space-between;
@@ -18,19 +22,18 @@ max-width: 1170px;
     margin: 95px -15px;
 }
 
-.inputs-wrapper{
+.inputs-wrapper {
     box-sizing: content-box;
     flex-basis: 29.875rem;
     margin: 0 15px;
-    
 }
 
-.form-contact_item__lbl{
+.form-contact_item__lbl {
     display: block;
-    margin-top: 32px;  
+    margin-top: 32px;
 }
 
-.form-contact_item__input{
+.form-contact_item__input {
     display: block;
     width: 100%;
     line-height: 20px;
@@ -39,56 +42,78 @@ max-width: 1170px;
     margin-top: 12px;
 }
 
-.form-contact_textarea{
+.form-contact_textarea {
     box-sizing: content-box;
     flex-basis: 29.875rem;
-    
 }
 
-.form-contact_textarea__msg{
+.form-contact_textarea__msg {
     display: block;
     width: 100%;
     resize: horizontal;
     height: 13.125rem;
 }
 
-.contact_button{
+.contact_button {
     display: block;
     margin: 0 auto;
     margin-top: 68px;
     display: block;
     width: 186px;
     height: 42px;
-    padding: 11px 31px;   
+    padding: 11px 31px;
     background-color: #EC7979;
 }
 
-@media(max-width:768px){
-    .contact{
+@media(max-width:768px) {
+    .contact {
         height: auto;
-        margin-top: 95px;   
+        margin-top: 95px;
         margin-bottom: 30px;
     }
-    .form-wrapper{
+    .form-wrapper {
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 0;
     }
-    .form-contact_textarea{
-    margin-top: 20px;    
-    width: 40%;    
-    flex-basis: 0;
+    .form-contact_textarea {
+        margin-top: 20px;
+        width: 100%;
+        flex-basis: 0;
     }
-    .inputs-wrapper{
+    .inputs-wrapper {
         flex-basis: 0;
         align-items: flex-start;
         margin: 0;
-        width: 40%;
+        width: 100%;
     }
-    .form-contact_item__input{
+    .form-contact_item__input {
         margin-left: 0;
     }
+}
+
+@media(max-width:576px){
+    .xs-show-contact {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.9375rem;
+        text-align: center;
+        color: #0e0d0d;
+        border: 1px solid #000000;
+        transition: 0.5s;
+        display: block;
+        width: 135px;
+        height: 30px;
+        padding: 3px 3px;
+        margin: 20px auto 15px;
+    }
+    .xs-show-contact:hover{
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        background: #000000;
     
+       }
 
 }

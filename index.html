@@ -17,31 +17,35 @@
         crossorigin="anonymous" />
 
 
+
 </head>
 
 <body>
-
     <nav class="navigation">
         <div class="container">
             <div class="nav_wrapper">
                 <div class="navigation_logo">AX</div>
-
-                <ul class="navigation_menu">
-                    <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">feautures</a></li>
-                    <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">about</a></li>
-                    <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">pricing</a></li>
-                    <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">reviews</a></li>
-                    <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span class="hamburger_item hamburger_item-1"></span>
-                    <span class="hamburger_item"></span>
-                    <span class="hamburger_item"></span>
-                </div>
-
+              
+                    <ul class="navigation_menu" id="menu">
+                        <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">feautures</a></li>
+                        <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">about</a></li>
+                        <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">pricing</a></li>
+                        <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">reviews</a></li>
+                        <li class="navigation_menu__item"><a href="#" class="navigation_menu__link">contact</a></li>
+                    </ul>
+                 
             </div>
+              <div class="topnav" id="myTopnav">
+                <a href="#" class=" navigation_menu__link active">Feautures</a>
+                <a href="#" class="navigation_menu__link">about</a>
+                <a href="#" class="navigation_menu__link">pricing</a>
+                <a href="#" class="navigation_menu__link">reviews</a>
+                <a href="#" class="navigation_menu__link">contact</a>
+                <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div> 
         </div>
     </nav>
+
 
     <header class="header">
         <div class="container">
@@ -51,8 +55,10 @@
                         <div class="header_logo">ax</div>
                         <h2 class="header_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
                         <div class="text header_text">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.
-                            Aenean</div>
+                            Aenean
+                        </div>
                         <a href="#" class="button link_btn header_link">Download</a>
+                        <a href="#" class="xs-show">Get Started Trial Today</a>
                     </div>
                 </div>
 
@@ -117,11 +123,9 @@
                 <div class="feautures_center">
                     <h3 class="h3-title feautures-title">Tabs with soft transitioning effect.</h3>
                     <div class="text feautures_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        euismod
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                        penatibus et magnis dis parturient montes.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                        Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                        parturient montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                         bibendum laoreet.</div>
                     <a href="#" class="button link_btn feautures_link">Download</a>
                 </div>
@@ -147,8 +151,8 @@
                         <i class="far fa-lightbulb"></i>
                     </div>
                     <h3 class="h3-title row-item_title">Thoughtful Design</h3>
-                    <div class="row-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+                    <div class="row-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </div>
                 </div>
 
@@ -157,8 +161,8 @@
                         <i class="far fa-keyboard"></i>
                     </div>
                     <h3 class="h3-title row-item_title">Well Crafted</h3>
-                    <div class="row-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+                    <div class="row-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </div>
                 </div>
 
@@ -167,8 +171,8 @@
                         <i class="fas fa-bolt"></i>
                     </div>
                     <h3 class="h3-title row-item_title">Easy to Customize</h3>
-                    <div class="row-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+                    <div class="row-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </div>
                 </div>
             </div>
@@ -232,8 +236,7 @@
 
                     <div class="customer-review_item__text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
-                        similique odio aspernatur ex,
-                        architecto eaque quo suscipit.
+                        similique odio aspernatur ex, architecto eaque quo suscipit.
                     </div>
 
                     <div class="custom-name_wrapper">
@@ -249,8 +252,7 @@
 
                     <div class="customer-review_item__text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
-                        similique odio aspernatur ex,
-                        architecto eaque quo suscipit.
+                        similique odio aspernatur ex, architecto eaque quo suscipit.
                     </div>
 
                     <div class="custom-name_wrapper">
@@ -266,8 +268,7 @@
 
                     <div class="customer-review_item__text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
-                        similique odio aspernatur ex,
-                        architecto eaque quo suscipit.
+                        similique odio aspernatur ex, architecto eaque quo suscipit.
                     </div>
 
                     <div class="custom-name_wrapper">
@@ -280,10 +281,7 @@
                 </div>
 
             </div>
-            <!--*************************************-->
-
-
-
+          
         </div>
     </section>
 
@@ -303,31 +301,33 @@
             <div class="textundertitle contact_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 
             <form action="#" class="form-contact">
-           <div class="form-wrapper">
-                <div class="inputs-wrapper">
+                <div class="form-wrapper">
+                    <div class="inputs-wrapper">
 
-                    <label for="name-contact" class="form-lbl form-contact_item__lbl">Name</label>
-                    <input type="text" class="form-input form-contact_item__input" id="name-contact">
+                        <label for="name-contact" class="form-lbl form-contact_item__lbl">Name</label>
+                        <input type="text" class="form-input form-contact_item__input" id="name-contact">
 
-                    <label for="email-contact" class="form-lbl form-contact_item__lbl">Email</label>
-                    <input type="email" class="form-input form-contact_item__input" id="email-contact">
+                        <label for="email-contact" class="form-lbl form-contact_item__lbl">Email</label>
+                        <input type="email" class="form-input form-contact_item__input" id="email-contact">
 
-                    <label for="pass-contact" class="form-lbl form-contact_item__lbl">Password</label>
-                    <input type="password" class="form-input form-contact_item__input" id="pass-contact">
+                        <label for="pass-contact" class="form-lbl form-contact_item__lbl">Password</label>
+                        <input type="password" class="form-input form-contact_item__input" id="pass-contact">
 
+                    </div>
+
+                    <div class="form-contact_textarea">
+                        <label for="mess" class="form-lbl form-contact_item__lbl">Message</label>
+                        <textarea name="mess-contact" id="mess" cols="30" rows="10"
+                            class="form-input form-contact_textarea__msg"></textarea>
+                    </div>
                 </div>
 
-                <div class="form-contact_textarea">
-                    <label for="mess" class="form-lbl form-contact_item__lbl">Message</label>
-                    <textarea name="mess-contact" id="mess" cols="30" rows="10"
-                        class="form-input form-contact_textarea__msg"></textarea>
-                </div>
-        </div>
+                <button class="button contact_button" type="submit">Send Message </button>
+               
+              
 
-        <button class="button contact_button" type="submit">Send Message </button>
-
-        </form>
-
+            </form>
+            <a href="#" class="xs-show-contact">Contact Us</a>
         </div>
     </section>
 
@@ -348,6 +348,16 @@
         </div>
     </footer>
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
